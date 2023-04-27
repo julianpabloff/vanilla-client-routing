@@ -1,0 +1,21 @@
+h2 {
+	color: green;
+}
+
+p {
+	color: blue;
+}
+
+@font-face {
+	font-family: "Something";
+}
+
+@media (min-width: 500px) {
+	h2 {
+		color: blue;
+	}
+	p {
+		color: red;
+		opacity: 0;
+	}
+}
